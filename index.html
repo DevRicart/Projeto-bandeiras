@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Aula de Geografia</title>
+  </head>
+  <style>
+           .slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInLeft {
+  0% {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: lightblue;
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    h1 {
+      margin-top: 30px;
+    }
+    
+    p {
+      margin-top: 5px;
+      font-size: 12px;
+    }
+
+    img {
+      width: 50px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 400px;
+      text-align: center;
+
+      margin-top: 20px;
+    }
+
+    th {
+      border: 1px solid black;
+      padding: 5px;
+      background-color: lightslategray;
+    }
+    td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+  
+  <body class="slideInLeft">
+    <h1>
+      Geografia básica
+    </h1>
+      <table>
+        <tr>
+          <th>País</td>
+          <th>Capital</td>
+          <th>Idioma</td>
+          <th>Mapa</td>
+        </tr>
+        <tr>
+          <td>Brasil</td>
+          <td>Brasília</td>
+          <td>Português</td>
+          <td><a target="_blank" href="https://www.gov.br/pt-br"><img src="  https://i0.wp.com/emotioncard.com.br/wp-content/uploads/2017/08/mapa-brasil-png.png?fit=2400,2392&ssl=1" width="50 px"></a> </td>
+        </tr>
+        <tr>
+          <td>Canadá</td>
+          <td>Ottawa</td>
+          <td>Inglês/Francês</td>
+          <td><a target="_blank" href="https://www.canada.ca/en.html"><img src="https://cdn.pixabay.com/photo/2012/04/26/18/14/canada-42703_640.png" alt=""></a> </td>
+        </tr>
+        <tr>
+          <td>França</td>
+          <td>Paris</td>
+          <td>Francês</td>
+          <td><a target="_blank" href="https://www.gouvernement.fr"><img src="https://enoestilo.com.br/wp-content/uploads/2014/06/Flag_map-france-revista-enoestilo.png" alt=""></a> </td>
+        </tr>	
+        <tr>
+          <td>Espanha</td>
+          <td>Madrid</td>
+          <td>Espanhol</td>
+          <td><a target="_blank" href="https://www.exteriores.gob.es/Consulados/saopaulo/pt/Paginas/index.aspx"><img src="http://pngimg.com/uploads/spain/spain_PNG67.png" alt=""></a> </td>
+        </tr>
+        <tr>
+          <td>Itália</td>
+          <td>Roma</td>
+          <td>Italiano</td>
+          <td><a target="_blank" href="https://www.governo.it/en"><img src="https://img2.gratispng.com/20180330/ouq/kisspng-flag-of-italy-flag-of-italy-map-stroke-5abe30048f0938.9513393015224135725859.jpg" alt=""></a></td>
+        </tr>
+        <tr>
+          <td>Japão</td>
+          <td>Tóquio</td>
+          <td>Japonês</td>
+          <td><a target="_blank" href="https://www.br.emb-japan.go.jp/cultura/estruturagovernamental.html"><img src="https://www.nicepng.com/png/full/33-331483_map-japan-japan-map-art.png" alt=""></a></td>
+        </tr>     
+      </table>
+      <p>*Clique no mapa para acessar o site governamental</p>
+    <script src="script.js"></script>
+  </body>
+</html>
